@@ -1,6 +1,6 @@
-# adminPanelAutomation
+# adminAutomation
 scripts to automate some day-to-day tasks
-# Routing Workflow Automation Bot
+# rerouteSite Bot
 
 ## 🚀 The Problem & The Solution
 *   **The Problem:** we need to reroute multiple merchant sites manually.
@@ -29,4 +29,18 @@ scripts to automate some day-to-day tasks
    .venv\Scripts\activate
    pip install selenium
    python rerouteSite.py
+   ```
+   # broadcast_alert Bot
+   
+## 🚀 The Problem & The Solution
+*   **The Problem:** we need to notify multiple groups of tg users about maintenance/recovery of our services.
+*   **The Solution:** The bot uses python "requests" library and the list of chat ids to post notifications.
+  
+## 🔧 Setup & Execution
+
+Activate your isolated virtual environment and run:
+   ```bash
+   .venv\Scripts\activate
+   pip install requests
+   python broadcast_alert.py
    ```
