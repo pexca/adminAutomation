@@ -38,9 +38,8 @@ scripts to automate some day-to-day tasks
   
 ## 🔧 Setup & Execution
 
-Activate your isolated virtual environment and run:
-   ```bash
+CLI:
    .venv\Scripts\activate
    pip install requests
    python broadcast_alert.py
-   ```
+   
