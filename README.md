@@ -39,7 +39,9 @@ scripts to automate some day-to-day tasks
 ## 🔧 Setup & Execution
 
 CLI:
+'''
    .venv\Scripts\activate
    pip install requests
    python broadcast_alert.py
+'''
    
