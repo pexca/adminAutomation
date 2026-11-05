@@ -1,12 +1,10 @@
 # adminPanelAutomation
 scripts to automate some day-to-day tasks
-# Fintech Routing Workflow Automation Bot
-
-A memory-efficient, production-grade Python script designed to automate high-volume merchant routing updates within a modern Single-Page Application (SPA) admin panel.
+# Routing Workflow Automation Bot
 
 ## 🚀 The Problem & The Solution
-*   **The Problem:** An operations team had to manually update routing channels for over 100+ sites daily. This required navigating complex tables, handling dynamic drop-downs, and executing repetitive data entry, costing hours of manual labor.
-*   **The Solution:** This bot automates the entire end-to-end user flow. It safely bridges into an active authenticated Chrome session via a remote debugging port, uses native hardware event simulation (`ActionChains`) to bypass heavy SPA state guards (React/Tailwind), and applies lightweight double-click browser history navigation to preserve system RAM.
+*   **The Problem:** we need to reroute multiple merchant sites manually.
+*   **The Solution:** The bot uses Selenium to emulate user behaviour (`ActionChains`), including the navigation back to the initial site search page(the list of merchant sites section).
 
 ## 🛠️ Tech Stack & Constraints
 *   **Language:** Python 3.13+
