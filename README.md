@@ -24,7 +24,7 @@ scripts to automate some day-to-day tasks
    ```bash
    chrome.exe --remote-debugging-port=9222 --user-data-dir="C:\chrome_dev_profile"
    ```
-2. Activate your isolated virtual environment and run:
+2. In the CLI run:
    ```bash
    .venv\Scripts\activate
    pip install selenium
@@ -38,10 +38,10 @@ scripts to automate some day-to-day tasks
   
 ## 🔧 Setup & Execution
 
-CLI:
-'''
+In the CLI run:
+   ```bash
    .venv\Scripts\activate
    pip install requests
    python broadcast_alert.py
-'''
+   ```
    
