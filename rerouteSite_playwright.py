@@ -6,7 +6,7 @@ from playwright.async_api import async_playwright
 # =====================================================================
 
 async def connect_to_chrome(p):
-    """Connects to your active running Chrome instance via Chrome DevTools Protocol"""
+    """Connects to an active running Chrome instance via Chrome DevTools Protocol"""
     # Global slow_mo ensures the heavy UI has breathing room on 4GB RAM machines
     browser = await p.chromium.connect_over_cdp("http://127.0.0.1:9222", slow_mo=500)
     
